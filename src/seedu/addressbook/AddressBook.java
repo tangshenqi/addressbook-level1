@@ -269,7 +269,7 @@ public class AddressBook {
 	private static void echoUserCommand(String userCommand) {
 		showToUser("[Command entered:" + userCommand + "]");
 	}
-
+	
 	/**
 	 * Processes the program main method run arguments. If a valid storage file
 	 * is specified, sets up that file for storage. Otherwise sets up the
@@ -1229,6 +1229,7 @@ public class AddressBook {
 		return s.replace(sign, "");
 	}
 	*/
+	
 
 	/**
 	 * Splits a source string into the list of substrings that were separated by
